@@ -27,7 +27,8 @@ function cardImovelHTML(imovel) {
         <img src="${imovel.capa}" alt="${imovel.titulo}" loading="lazy">
         <span class="property-tag property-tag-op">${imovel.operacao}</span>
         <span class="property-tag property-tag-tipo">${imovel.tipo}</span>
-        ${imovel.destaque ? '<span class="property-tag property-tag-destaque">Destaque</span>' : imovel.lancamento ? '<span class="property-tag property-tag-lancamento">Lançamento</span>' : ''}
+        ${imovel.destaque ? '<span class="property-tag property-tag-destaque">Destaque</span>' : ''}
+        ${imovel.lancamento ? '<span class="property-tag property-tag-lancamento">Lançamento</span>' : ''}
       </div>
       <div class="property-card-body">
         <div class="property-card-top">
@@ -45,12 +46,15 @@ function cardImovelHTML(imovel) {
   `;
 }
 
+function prioridadeImovel(imovel) {
+  if (imovel.destaque && imovel.lancamento) return 0; // Destaque + Lançamento: sempre primeiro
+  if (imovel.lancamento) return 1;
+  if (imovel.destaque) return 2;
+  return 3;
+}
+
 function ordenarImoveisPorPrioridade(imoveis) {
-  return [...imoveis].sort((a, b) => {
-    const prioridadeA = a.lancamento ? 0 : a.destaque ? 1 : 2;
-    const prioridadeB = b.lancamento ? 0 : b.destaque ? 1 : 2;
-    return prioridadeA - prioridadeB;
-  });
+  return [...imoveis].sort((a, b) => prioridadeImovel(a) - prioridadeImovel(b));
 }
 
 /* -------- Renderiza a grade de imóveis (index.html) -------- */
@@ -127,7 +131,11 @@ function renderDetalheImovel() {
         <div class="galeria-principal">
           <img id="foto-principal" src="${imovel.imagens[0]}" alt="${imovel.titulo}">
           <span class="property-tag property-tag-op" style="position:absolute;top:18px;left:18px;">${imovel.operacao}</span>
-          ${imovel.lancamento ? '<span class="property-tag property-tag-lancamento-detalhe">Lançamento</span>' : ''}
+          ${(imovel.destaque || imovel.lancamento) ? `
+          <div class="detalhe-tags-canto">
+            ${imovel.destaque ? '<span class="property-tag property-tag-destaque-detalhe">Destaque</span>' : ''}
+            ${imovel.lancamento ? '<span class="property-tag property-tag-lancamento-detalhe">Lançamento</span>' : ''}
+          </div>` : ''}
           ${imovel.imagens.length > 1 ? `
             <button class="galeria-nav galeria-prev" type="button" aria-label="Foto anterior">‹</button>
             <button class="galeria-nav galeria-next" type="button" aria-label="Próxima foto">›</button>

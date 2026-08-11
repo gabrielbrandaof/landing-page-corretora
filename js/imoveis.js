@@ -264,5 +264,30 @@ const IMOVEIS = [
     ]
   },
 
+  {
+    id: 10,
+    tipo: "Apartamento",
+    operacao: "Venda",
+    titulo: "Apartamento no Village Conect I",
+    bairro: "Turu",
+    cidade: "São Luís - MA",
+    preco: 230000,
+    quartos: 2,
+    banheiros: 1,
+    vagas: 1,
+    area: 40.94,
+    destaque: true,
+    lancamento: true,
+    renda: null,
+    descricao: "Piscinas adulto e infantil, playground, campo de futebol, pet place, espaço fitness, salão de festas com churrasqueira, brinquedoteca, coworking e muito mais!\n\nLocalização estratégica, transporte na porta e qualidade de vida, com entradas a partir de apenas R$499,00.",
+    capa: "img/conect3.jpg",
+    imagens: [
+      "img/conect3.jpg",
+      "img/conect1.jpg",
+      "img/conect2.jpg",
+      "img/conect4.JPG"
+    ]
+  },
+
 ];
 

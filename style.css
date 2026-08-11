@@ -1,4 +1,4 @@
-  :root{
+:root{
     /* ===== Design tokens — Fátima Brandão ===== */
     --paper:      #F1EBE0;   /* fundo areia quente */
     --paper-dim:  #E7DECE;   /* variação mais funda do fundo */
@@ -985,6 +985,22 @@ body.modal-open{ overflow: hidden; }
   .galeria-principal img{
     width:100%; height:100%;
     object-fit:cover;
+  }
+  .detalhe-tags-canto{
+    position:absolute;
+    top: 18px; right: 18px;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-end;
+    gap: 8px;
+  }
+  .property-tag-destaque-detalhe{
+    background: var(--brand);
+    color: #fff;
+  }
+  .property-tag-lancamento-detalhe{
+    background: #3C7FC3;
+    color: #fff;
   }
   .galeria-nav{
     position:absolute;
