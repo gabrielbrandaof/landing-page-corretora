@@ -47,7 +47,7 @@ const IMOVEIS = [
     banheiros: 1,
     vagas: 1,
     area: 40.94,
-    destaque: true,
+    destaque: false,
     lancamento: false,
     renda: null,
     descricao: "Apartamentos inclusos no programa Minha Casa Minha Vida, com renda a partir de R$2000.00, com subsídio de ate R$55.000. \n\nCondomínio com portaria 24h, área de lazer completa e fácil acesso às principais vias da cidade.",
@@ -73,7 +73,7 @@ const IMOVEIS = [
     vagas: 2,
     area: 72.23,
     destaque: false,
-    lancamento: true,
+    lancamento: false,
     renda: null,
     descricao: "Casa grande em condomínio clube fechado, com 3 quartos sendo 2 suítes. Lazer e comodidade para toda a família, com piscinas, espaços gourmet, salão de jogos, playground e estacionamento para visitantes.\n\nAo lado da nova Avenida Metropolitana, garantindo mobilidade e acesso rápido a mais de 50 bairros e às praias da Grande Ilha.",
     capa: "img/terrari3.jpg",
@@ -277,7 +277,7 @@ const IMOVEIS = [
     vagas: 1,
     area: 40.94,
     destaque: true,
-    lancamento: true,
+    lancamento: false,
     renda: null,
     descricao: "Piscinas adulto e infantil, playground, campo de futebol, pet place, espaço fitness, salão de festas com churrasqueira, brinquedoteca, coworking e muito mais!\n\nLocalização estratégica, transporte na porta e qualidade de vida, com entradas a partir de apenas R$499,00.",
     capa: "img/conect3.jpg",
@@ -288,6 +288,66 @@ const IMOVEIS = [
       "img/conect4.JPG"
     ]
   },
+
+    {
+    id: 11,
+    tipo: "Apartamento",
+    operacao: "Venda",
+    titulo: "Apartamento no Torres de Mônaco",
+    bairro: "Turu",
+    cidade: "São Luís - MA",
+    preco: 260000,
+    quartos: 2,
+    banheiros: 1,
+    vagas: 1,
+    area: 43.74,
+    destaque: true,
+    lancamento: true,
+    renda: null,
+    descricao: "No Turu, em São Luís, próximo a shoppings, hospitais, faculdades e supermercados.\n\nApartamentos de 2 quartos, com opções de suíte e varanda, além de lazer completo para toda a família.",
+    capa: "img/monaco1.jpg",
+    imagens: [
+      "img/monaco1.jpg",
+      "img/monaco2.jpg",
+      "img/monaco3.jpg",
+      "img/monaco4.jpg",
+      "img/monaco5.jpg"
+    ]
+  },
+
+    {
+    id: 12,
+    tipo: "Apartamento",
+    operacao: "Venda",
+    titulo: "Apartamento no Ilhas Canárias",
+    bairro: "Cohatrac",
+    cidade: "São Luís - MA",
+    preco: 239990,
+    quartos: 2,
+    banheiros: 2,
+    vagas: 1,
+    area: 46.85,
+    destaque: true,
+    lancamento: true,
+    renda: null,
+    descricao: "Apartamentos de 2 quartos, com varanda e opções com suíte e giardino, em plantas de 43,66 m² a 46,85 m².\n\nCondomínio fechado com lazer completo, piscina, quadra, academia, playground, espaço gourmet e muito mais.",
+    capa: "img/canarias1.jpg",
+    imagens: [
+      "img/canarias1.jpg",
+      "img/canarias2.jpg",
+      "img/canarias3.jpg",
+      "img/canarias4.jpg",
+      "img/canarias5.jpg",
+      "img/canarias6.jpg",
+      "img/canarias7.jpg",
+      "img/canarias8.jpg",
+      "img/canarias9.jpg",
+      "img/canarias10.jpg",
+      "img/canarias11.jpg",
+      "img/canarias12.jpg",
+      "img/canarias13.jpg"
+    ]
+  }
 
 ];
 
