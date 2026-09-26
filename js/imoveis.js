@@ -345,7 +345,8 @@ const IMOVEIS = [
       "img/canarias10.jpg",
       "img/canarias11.jpg",
       "img/canarias12.jpg",
-      "img/canarias13.jpg"
+      "img/canarias13.jpg",
+      "img/canarias14.jpg"
     ]
   }
 
