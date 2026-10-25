@@ -29,7 +29,7 @@
                 Quanto mais fotos, melhor — adicione quantas quiser.
 
    DICA: salve as fotos dos imóveis dentro da pasta "img/" (crie
-   subpastas por imóvel se preferir, ex: img/imovel-07/foto1.jpg) e
+   subpastas por imóvel se preferir, ex: img/imovel-07/foto1.webp) e
    aponte o caminho aqui.
    ======================================================================= */
 
@@ -51,12 +51,12 @@ const IMOVEIS = [
     lancamento: false,
     renda: null,
     descricao: "Apartamentos inclusos no programa Minha Casa Minha Vida, com renda a partir de R$2000.00, com subsídio de ate R$55.000. \n\nCondomínio com portaria 24h, área de lazer completa e fácil acesso às principais vias da cidade.",
-    capa: "img/estrelas1.jpg",
+    capa: "img/estrelas1.webp",
     imagens: [
-      "img/estrelas1.jpg",
-      "img/estrelas2.jpg",
-      "img/estrelas3.jpeg",
-      "img/estrelas4.jpeg"
+      "img/estrelas1.webp",
+      "img/estrelas2.webp",
+      "img/estrelas3.webp",
+      "img/estrelas4.webp"
     ]
   },
 
@@ -76,12 +76,12 @@ const IMOVEIS = [
     lancamento: false,
     renda: null,
     descricao: "Casa grande em condomínio clube fechado, com 3 quartos sendo 2 suítes. Lazer e comodidade para toda a família, com piscinas, espaços gourmet, salão de jogos, playground e estacionamento para visitantes.\n\nAo lado da nova Avenida Metropolitana, garantindo mobilidade e acesso rápido a mais de 50 bairros e às praias da Grande Ilha.",
-    capa: "img/terrari3.jpg",
+    capa: "img/terrari3.webp",
     imagens: [
-      "img/terrari3.jpg",
-      "img/terrari2.jpg",
-      "img/terrari1.jpg",
-      "img/terrari4.jpg"
+      "img/terrari3.webp",
+      "img/terrari2.webp",
+      "img/terrari1.webp",
+      "img/terrari4.webp"
       /* substitua estas fotos de exemplo pelas fotos reais do imóvel */
     ]
   },
@@ -102,12 +102,12 @@ const IMOVEIS = [
     lancamento: false,
     renda: null,
     descricao: "Viva no Residencial Ilha dos Vinhais, localizado atrás do Shopping da Ilha, em uma das regiões mais valorizadas de São Luís. Apartamentos de 2 quartos com opções de varanda, suíte e lazer completo.\n\nAproveite condições especiais para conquistar seu imóvel, com ITBI e cartório grátis, além de financiamento facilitado. O lugar ideal para morar ou investir com praticidade e segurança.",
-    capa: "img/vinhais1.JPG",
+    capa: "img/vinhais1.webp",
     imagens: [
-      "img/vinhais1.JPG",
-      "img/vinhais2.JPG",
-      "img/vinhais3.JPG",
-      "img/vinhais4.JPG",
+      "img/vinhais1.webp",
+      "img/vinhais2.webp",
+      "img/vinhais3.webp",
+      "img/vinhais4.webp",
     ]
   },
 
@@ -127,12 +127,12 @@ const IMOVEIS = [
     lancamento: false,
     renda: null,
     descricao: "Apartamentos de 2 quartos no Angelim, com lazer completo, localização estratégica e toda a qualidade MRV para você viver com mais conforto.\n\nFinanciamento facilitado, uso do FGTS e ITBI + cartório grátis, tornando a conquista do seu imóvel ainda mais acessível.",
-    capa: "img/santorini1.jpg",
+    capa: "img/santorini1.webp",
     imagens: [
-      "img/santorini1.jpg",
-      "img/santorini2.jpg",
-      "img/santorini3.jpg",
-      "img/santorini4.jpg"
+      "img/santorini1.webp",
+      "img/santorini2.webp",
+      "img/santorini3.webp",
+      "img/santorini4.webp"
     ]
   },
 
@@ -152,12 +152,12 @@ const IMOVEIS = [
     lancamento: false,
     renda: null,
     descricao: "Casa nova que garante todo conforto e segurança para voce, próxima a Av.General Arthur Carvalho\n\nCondomínio com piscina, campo de futebol, campo de areia e churrasqueira.",
-    capa: "img/rafaela1.JPG",
+    capa: "img/rafaela1.webp",
     imagens: [
-      "img/rafaela1.JPG",
-      "img/rafaela2.JPG",
-      "img/rafaela3.JPG",
-      "img/rafaela4.JPG"
+      "img/rafaela1.webp",
+      "img/rafaela2.webp",
+      "img/rafaela3.webp",
+      "img/rafaela4.webp"
     ]
   },
 
@@ -177,15 +177,15 @@ const IMOVEIS = [
     lancamento: false,
     renda: null,
     descricao: "O Cidade de Viena chega como o novo empreendimento da Construtora Lua Nova, destacando-se pelo design contemporâneo, elevado padrão de construção e planejamento inteligente.\n\n Idealizado pelos arquitetos Leonardo Borges e Cláudia Albertini, o projeto reúne elegância, funcionalidade e qualidade em cada detalhe.",
-    capa: "img/viena2.jpg",
+    capa: "img/viena2.webp",
     imagens: [
-      "img/viena1.jpeg",
-      "img/viena2.jpg",
-      "img/viena3.jpg",
-      "img/viena4.jpg",
-      "img/viena5.jpg",
-      "img/viena6.jpg",
-      "img/viena7.jpg",
+      "img/viena1.webp",
+      "img/viena2.webp",
+      "img/viena3.webp",
+      "img/viena4.webp",
+      "img/viena5.webp",
+      "img/viena6.webp",
+      "img/viena7.webp",
     ]
   },
 
@@ -205,12 +205,12 @@ const IMOVEIS = [
     lancamento: true,
     renda: null,
     descricao: "Lazer completo com piscinas, playground, campo de futebol, salão de festas, salão de jogos, brinquedoteca, academia ao ar livre e muito mais.\n\n Não deixe essa oportunidade passar: invista no seu futuro e realize o sonho da casa própria em um condomínio completo!",
-    capa: "img/aguas1.jpeg",
+    capa: "img/aguas1.webp",
     imagens: [
-      "img/aguas1.jpeg",
-      "img/aguas2.jpg",
-      "img/aguas3.jpg",
-      "img/aguas4.jpg"
+      "img/aguas1.webp",
+      "img/aguas2.webp",
+      "img/aguas3.webp",
+      "img/aguas4.webp"
     ]
   },
 
@@ -230,12 +230,12 @@ const IMOVEIS = [
     lancamento: false,
     renda: null,
     descricao: "A área de lazer oferece piscina adulto e infantil, quadra poliesportiva, salão de festas, quiosques com churrasqueira, academia ao ar livre, playground, praças e diversos espaços para toda a família.\n\n Por participar do Programa Minha Casa Minha Vida, você terá a oportunidade de obter um desconto de até R$ 55.000 (subsídio) no valor total do imóvel",
-    capa: "img/floresVI1.jpg",
+    capa: "img/floresVI1.webp",
     imagens: [
-      "img/floresVI1.jpg",
-      "img/floresVI2.jpg",
-      "img/floresVI3.jpg",
-      "img/floresVI4.jpg"
+      "img/floresVI1.webp",
+      "img/floresVI2.webp",
+      "img/floresVI3.webp",
+      "img/floresVI4.webp"
     ]
   },
 
@@ -255,12 +255,12 @@ const IMOVEIS = [
     lancamento: false,
     renda: null,
     descricao: "A área de lazer do Newlife tem piscina infantil, piscina adulto e um charmoso solarium. E para comemorar os melhores momentos um delicioso salão de festas com churrasqueira faz o convite.\n\n Todas as torres contam com elevador, garantindo mais comodidade e acessibilidade para os moradores.",
-    capa: "img/newlife1.JPG",
+    capa: "img/newlife1.webp",
     imagens: [
-      "img/newlife1.JPG",
-      "img/newlife2.JPG",
-      "img/newlife3.JPG",
-      "img/newlife4.JPG"
+      "img/newlife1.webp",
+      "img/newlife2.webp",
+      "img/newlife3.webp",
+      "img/newlife4.webp"
     ]
   },
 
@@ -280,12 +280,12 @@ const IMOVEIS = [
     lancamento: false,
     renda: null,
     descricao: "Piscinas adulto e infantil, playground, campo de futebol, pet place, espaço fitness, salão de festas com churrasqueira, brinquedoteca, coworking e muito mais!\n\nLocalização estratégica, transporte na porta e qualidade de vida, com entradas a partir de apenas R$499,00.",
-    capa: "img/conect3.jpg",
+    capa: "img/conect3.webp",
     imagens: [
-      "img/conect3.jpg",
-      "img/conect1.jpg",
-      "img/conect2.jpg",
-      "img/conect4.JPG"
+      "img/conect3.webp",
+      "img/conect1.webp",
+      "img/conect2.webp",
+      "img/conect4.webp"
     ]
   },
 
@@ -305,13 +305,13 @@ const IMOVEIS = [
     lancamento: true,
     renda: null,
     descricao: "No Turu, em São Luís, próximo a shoppings, hospitais, faculdades e supermercados.\n\nApartamentos de 2 quartos, com opções de suíte e varanda, além de lazer completo para toda a família.",
-    capa: "img/monaco1.jpg",
+    capa: "img/monaco1.webp",
     imagens: [
-      "img/monaco1.jpg",
-      "img/monaco2.jpg",
-      "img/monaco3.jpg",
-      "img/monaco4.jpg",
-      "img/monaco5.jpg"
+      "img/monaco1.webp",
+      "img/monaco2.webp",
+      "img/monaco3.webp",
+      "img/monaco4.webp",
+      "img/monaco5.webp"
     ]
   },
 
@@ -331,22 +331,22 @@ const IMOVEIS = [
     lancamento: true,
     renda: null,
     descricao: "Apartamentos de 2 quartos, com varanda e opções com suíte e giardino, em plantas de 43,66 m² a 46,85 m².\n\nCondomínio fechado com lazer completo, piscina, quadra, academia, playground, espaço gourmet e muito mais.",
-    capa: "img/canarias1.jpg",
+    capa: "img/canarias1.webp",
     imagens: [
-      "img/canarias1.jpg",
-      "img/canarias2.jpg",
-      "img/canarias3.jpg",
-      "img/canarias4.jpg",
-      "img/canarias5.jpg",
-      "img/canarias6.jpg",
-      "img/canarias7.jpg",
-      "img/canarias8.jpg",
-      "img/canarias9.jpg",
-      "img/canarias10.jpg",
-      "img/canarias11.jpg",
-      "img/canarias12.jpg",
-      "img/canarias13.jpg",
-      "img/canarias14.jpg"
+      "img/canarias1.webp",
+      "img/canarias2.webp",
+      "img/canarias3.webp",
+      "img/canarias4.webp",
+      "img/canarias5.webp",
+      "img/canarias6.webp",
+      "img/canarias7.webp",
+      "img/canarias8.webp",
+      "img/canarias9.webp",
+      "img/canarias10.webp",
+      "img/canarias11.webp",
+      "img/canarias12.webp",
+      "img/canarias13.webp",
+      "img/canarias14.webp"
     ]
   }
 
